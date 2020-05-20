@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>App Help Us</title>
+</head>
+<body>
+
+    <div class="container prueba">
+
+        <div class="sub-contain">
+            <h3>App Help Us  </h3>
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="saldo">
+            <p style="font-weight: 600; font-size: 18px; ">Tu saldo  Help Us</p>
+            <h2><span style="  font-size: 25px;vertical-align: top;position: relative;right: -12px; " >$</span> 0,00</h2>
+            <p style="font-size: 13px;">Disponible</p>
+        </div>
+
+        <div>
+            <a href="movimientos.html">Movimientos mas recientes </a>  <i class="fas fa-long-arrow-alt-right" style="vertical-align: middle; margin-left: 30px; cursor: pointer;"></i>
+        </div>
+
+        <div class="envSol">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="tfbm89@gmail.com" />
+                <input type="hidden" name="item_name" value="realizar donaciones" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="submit" src="" border="0" name="submit" style="background:#fff; color:#45B27F; padding: 30px 10px; border-radius: 10px; border: none; cursor: pointer; font-weight: 900; font-size: 18px;" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" value="Donar Ahora" />
+           </form> 
+        </div>
+
+    </div>
+    
+</body>
+</html>
